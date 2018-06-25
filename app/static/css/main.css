@@ -1,5 +1,5 @@
 body{
-  background: url("../media/img/site_background.jpg");
+  background: url("../img/site_background.jpg");
 }
 
 .container{
@@ -19,6 +19,7 @@ div{
   color:black;
 }
 
+
 .logo{
   margin-top: 30px;
   margin-left: 50px;
@@ -35,7 +36,7 @@ div{
   list-style-type: none;
 }
 #main-row{
-  max-height: auto;
+  max-height: 600px;
   overflow: hidden;
 }
 .nav>li>a{
@@ -65,6 +66,30 @@ div{
   margin-right: 30px;
 }
 
+.photo{
+  margin-left: 15px;
+  width:auto;
+}
+
+.welcome{
+  margin-left: 15px;
+}
+
+.feedcolor{
+  color:white;
+}
+
+.add-right-margin{
+  padding-right: 20px;
+}
+
+.feed{
+  background-color: #991f1d;
+  padding:10px;
+}
+.line>p{
+  color: white;
+}
 .nav-foot{
   font-size: 10px;
   border-top:1px solid black;
@@ -116,49 +141,14 @@ div{
   padding-right: 30px;
   height: auto;
 }
-.col-md-9{
-  height: auto;
+#right{
+  max-height: 450px;
+  overflow: hidden;
 }
 .alink:hover, .foot-link:hover{
   color: red;
 }
-#who{
-  background-color: #991f1d;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 15px;
-  margin-top: 10px;
-}
-#who_h4{
-  color:white;
-}
-.alist{
-  border-top: 3px solid white;
-}
-.alist>p>a{
-  color: white;
-}
-.add-bottom-margin{
-  margin-bottom: 20px;
-}
-
-.where>h4{
-  color:white
-}
-.where>p{
-  color:white;
-}
 .borders {
   position: relative;
-  border: 3px double black;
-}
-.borders:after {
-  content: " ";
-  position: absolute;
-  z-index: 1;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border: 1px solid black;
+  border: 1px double grey;
 }
